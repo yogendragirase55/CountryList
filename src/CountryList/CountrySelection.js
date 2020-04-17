@@ -18,7 +18,7 @@ const ItemView = (params) => {
   return (
     <View style={styles.itemContainer}>
       <TouchableOpacity style={styles.itemTextContainer} onPress={() => params.action(params.item)}>
-        <Image source={{ uri: params.item.flag }} style={styles.flag} />
+        {/* <Image source={{ uri: params.item.flag }} style={styles.flag} /> */}
         <Text numberOfLines={1} style={styles.itemText}>{text}</Text>
         <View style={styles.selectionView}>
           { selected }

@@ -46,6 +46,7 @@ export default StyleSheet.create({
     height: 45,
     backgroundColor: '#ffffff',
     justifyContent: 'flex-end',
+    paddingHorizontal: 10,
   },
   itemTextContainer: {
     flex: 1,
